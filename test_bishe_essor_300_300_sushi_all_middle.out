@@ -1,0 +1,1712 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ... connected to 20 workers.
+Running data: sushi_data/sushi_all_middle.mat .......................................................
+Dataset size: 10000 * 147, K = 5, trainSize = 7000, testSize = 3000.
+
+
+
+ labeledRatio = 0.500000.
+ESSOR samplingSize = 300.
+Test results:
+
+Lab 16: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0033 0.0033 -2.5422e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+Lab 11: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0067 0.0067 -2.7789e-06]
+  
+Lab 20: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.4539e-06]
+  
+Lab 10: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.3976e-06]
+  
+Lab 14: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.7946e-06]
+  
+Lab 17: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.7982e-06]
+  
+Lab  6: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0133 0.0100 -2.7374e-06]
+  
+Lab 13: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0133 0.0033 -2.7609e-06]
+  
+Lab  9: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0067 0.0067 -2.5146e-06]
+  
+Lab 12: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0033 0.0033 -2.7227e-06]
+  
+Lab  1: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0100 0.0100 -2.4801e-06]
+  
+Lab  5: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0133 0.0067 -2.8058e-06]
+  
+Lab  4: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.7089e-06]
+  
+Lab  3: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0067 0.0067 -2.5645e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+Lab  4: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+Lab 18: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.4655e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+Lab 19: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.6125e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+Lab  2: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0 0 -2.6977e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+Lab 15: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0133 0.0033 -2.5406e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+Lab  8: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0067 0.0033 -2.5613e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+Lab 18: 
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+Lab 15: 
+  
+  ans =
+  
+       1
+  
+Lab  8: 
+  DE lower bound = 0, upper bound = 2
+Lab 19: 
+  
+  ans =
+  
+       1
+  
+Lab  8: 
+  The intermediate results of ESSOR: itr,lambda,objs
+Lab  2: 
+  
+  ans =
+  
+       1
+  
+Lab  8: 
+  
+  ans =
+  
+       1
+  
+Lab 16: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.542170772140241e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.542170772140241e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.542170772140241e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.542170772140241e-06
+  
+  
+  KDLOR: mae = 1.040667, mze = 0.694667.
+Lab  7: 
+  
+  S_y = 
+  
+        I_nc: 0
+      FVr_ca: 0
+        I_no: 3
+      FVr_oa: [0.0133 0.0100 -2.5257e-06]
+  
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+Lab 17: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.798241355314222e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.798241355314222e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.798241355314222e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.798241355314222e-06
+  
+  
+  KDLOR: mae = 1.037000, mze = 0.727333.
+Lab 11: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.778874146432699e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.778874146432699e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.778874146432699e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.778874146432699e-06
+  
+  
+  KDLOR: mae = 1.027667, mze = 0.712667.
+Lab 14: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.794645383033294e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.794645383033294e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.794645383033294e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.794645383033294e-06
+  
+  
+  KDLOR: mae = 1.019000, mze = 0.732333.
+Lab 20: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.453940652510496e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.453940652510496e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.453940652510496e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.453940652510496e-06
+  
+  
+  KDLOR: mae = 1.005000, mze = 0.791333.
+Lab 13: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.760914951315470e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.760914951315470e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.760914951315470e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.760914951315470e-06
+  
+  
+  KDLOR: mae = 1.010333, mze = 0.742667.
+Lab  5: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     6.666666666666710e-03    -2.805823296346776e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     6.666666666666710e-03    -2.805823296346776e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     6.666666666666710e-03    -2.805823296346776e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     6.666666666666710e-03    -2.805823296346776e-06
+  
+  
+  KDLOR: mae = 1.029667, mze = 0.726333.
+Lab 10: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.397555774949866e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.397555774949866e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.397555774949866e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.397555774949866e-06
+  
+  
+  KDLOR: mae = 1.003667, mze = 0.707000.
+Lab 12: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.722744331306503e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.722744331306503e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.722744331306503e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       3.333333333333334e-03     3.333333333333299e-03    -2.722744331306503e-06
+  
+  
+  KDLOR: mae = 1.031333, mze = 0.771000.
+Lab  1: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.000000000000000e-02     1.000000000000001e-02    -2.480066001223115e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.000000000000000e-02     1.000000000000001e-02    -2.480066001223115e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.000000000000000e-02     1.000000000000001e-02    -2.480066001223115e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.000000000000000e-02     1.000000000000001e-02    -2.480066001223115e-06
+  
+  
+  KDLOR: mae = 1.026667, mze = 0.752333.
+Lab  9: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.514624790160767e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.514624790160767e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.514624790160767e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.514624790160767e-06
+  
+  
+  KDLOR: mae = 1.020667, mze = 0.707333.
+Lab  6: 
+  
+  I_nf =
+  
+         15050
+  
+  DE lower bound = 0, upper bound = 2
+  The intermediate results of ESSOR: itr,lambda,objs
+  
+  ans =
+  
+       1
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.737435924010522e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.737435924010522e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.737435924010522e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.737435924010522e-06
+  
+  
+  KDLOR: mae = 1.003667, mze = 0.707333.
+Lab  3: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.564478586156590e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.564478586156590e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.564478586156590e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     6.666666666666710e-03    -2.564478586156590e-06
+  
+  
+  KDLOR: mae = 1.009333, mze = 0.710667.
+Lab 15: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.540630722102622e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.540630722102622e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.540630722102622e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     3.333333333333299e-03    -2.540630722102622e-06
+  
+  
+  KDLOR: mae = 1.007333, mze = 0.697000.
+Lab 19: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.612507006397916e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.612507006397916e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.612507006397916e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.612507006397916e-06
+  
+  
+  KDLOR: mae = 1.053000, mze = 0.715000.
+Lab 18: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.465534524792082e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.465534524792082e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.465534524792082e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.465534524792082e-06
+  
+  
+  KDLOR: mae = 0.997333, mze = 0.722333.
+Lab  7: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.525692183682020e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.525692183682020e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.525692183682020e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       1.333333333333333e-02     1.000000000000001e-02    -2.525692183682020e-06
+  
+  
+  KDLOR: mae = 1.014667, mze = 0.729667.
+Lab  8: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     3.333333333333299e-03    -2.561313039527596e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     3.333333333333299e-03    -2.561313039527596e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     3.333333333333299e-03    -2.561313039527596e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+       6.666666666666667e-03     3.333333333333299e-03    -2.561313039527596e-06
+  
+  
+  KDLOR: mae = 1.016333, mze = 0.712667.
+Lab  4: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.708920800229408e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.708920800229408e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.708920800229408e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.708920800229408e-06
+  
+  
+  KDLOR: mae = 1.039333, mze = 0.747667.
+Lab  2: 
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.697747379306110e-06
+  
+  
+  ans =
+  
+      30
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.697747379306110e-06
+  
+  
+  ans =
+  
+     100
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.697747379306110e-06
+  
+  
+  ans =
+  
+     300
+  
+  
+  ans =
+  
+       1     1     1     1     1
+  
+  
+  ans =
+  
+                           0                         0    -2.697747379306110e-06
+  
+  
+  KDLOR: mae = 1.027667, mze = 0.700333.
+Lab  4: 
+  LGC: mae = 1.264286, mze = 0.626857.
+  WKFDOR: mae = 1.047667, mze = 0.740667.
+  ESSOR: mae = 1.047667, mze = 0.765333.
+Lab  8: 
+  LGC: mae = 1.320286, mze = 0.641143.
+  WKFDOR: mae = 1.022667, mze = 0.719333.
+  ESSOR: mae = 1.022667, mze = 0.764667.
+Lab 20: 
+  LGC: mae = 1.293429, mze = 0.630857.
+  WKFDOR: mae = 1.010667, mze = 0.776000.
+  ESSOR: mae = 1.010667, mze = 0.761667.
+Lab  7: 
+  LGC: mae = 1.287714, mze = 0.631714.
+  WKFDOR: mae = 1.021667, mze = 0.727000.
+  ESSOR: mae = 1.021667, mze = 0.764333.
+Lab 14: 
+  LGC: mae = 1.313714, mze = 0.631714.
+  WKFDOR: mae = 1.028333, mze = 0.730000.
+  ESSOR: mae = 1.028333, mze = 0.776333.
+Lab  2: 
+  LGC: mae = 1.286571, mze = 0.629714.
+  WKFDOR: mae = 1.031333, mze = 0.703333.
+  ESSOR: mae = 1.031333, mze = 0.774667.
+Lab 13: 
+  LGC: mae = 1.243143, mze = 0.613714.
+  WKFDOR: mae = 1.016333, mze = 0.722000.
+  ESSOR: mae = 1.016333, mze = 0.760000.
+Lab 17: 
+  LGC: mae = 1.236000, mze = 0.616000.
+  WKFDOR: mae = 1.041667, mze = 0.731667.
+  ESSOR: mae = 1.041667, mze = 0.763333.
+Lab 19: 
+  LGC: mae = 1.248286, mze = 0.616857.
+  WKFDOR: mae = 1.058667, mze = 0.709000.
+  ESSOR: mae = 1.058667, mze = 0.773667.
+Lab 11: 
+  LGC: mae = 1.296857, mze = 0.635429.
+  WKFDOR: mae = 1.033667, mze = 0.695333.
+  ESSOR: mae = 1.033667, mze = 0.773667.
+Lab 12: 
+  LGC: mae = 1.290286, mze = 0.628286.
+  WKFDOR: mae = 1.035667, mze = 0.760000.
+  ESSOR: mae = 1.035667, mze = 0.770000.
+Lab  6: 
+  LGC: mae = 1.300571, mze = 0.635429.
+  WKFDOR: mae = 1.010000, mze = 0.708667.
+  ESSOR: mae = 1.010000, mze = 0.755000.
+Lab 15: 
+  LGC: mae = 1.282571, mze = 0.633429.
+  WKFDOR: mae = 1.012000, mze = 0.695000.
+  ESSOR: mae = 1.012000, mze = 0.774667.
+Lab  9: 
+  LGC: mae = 1.244286, mze = 0.615429.
+  WKFDOR: mae = 1.026667, mze = 0.705000.
+  ESSOR: mae = 1.026667, mze = 0.764667.
+Lab 18: 
+  LGC: mae = 1.269714, mze = 0.624857.
+  WKFDOR: mae = 1.007667, mze = 0.715333.
+  ESSOR: mae = 1.007667, mze = 0.758000.
+Lab  5: 
+  LGC: mae = 1.280857, mze = 0.638571.
+  WKFDOR: mae = 1.034333, mze = 0.725333.
+  ESSOR: mae = 1.034333, mze = 0.764000.
+Lab 16: 
+  LGC: mae = 1.262857, mze = 0.631429.
+  WKFDOR: mae = 1.047333, mze = 0.693667.
+  ESSOR: mae = 1.047333, mze = 0.773333.
+Lab  3: 
+  LGC: mae = 1.274571, mze = 0.625714.
+  WKFDOR: mae = 1.015333, mze = 0.713667.
+  ESSOR: mae = 1.015333, mze = 0.761667.
+Lab 10: 
+  LGC: mae = 1.290286, mze = 0.635143.
+  WKFDOR: mae = 1.007333, mze = 0.701667.
+  ESSOR: mae = 1.007333, mze = 0.755333.
+Lab  1: 
+  LGC: mae = 1.252000, mze = 0.624286.
+  WKFDOR: mae = 1.034000, mze = 0.737333.
+  ESSOR: mae = 1.034000, mze = 0.760333.
+
+
+
+Semi-supervised version, rbf kernel, 20 trials tests results:
+KDLOR results: mae_kfdor = 1.021017��0.014913, mze_kfdor = 0.725383��0.025180
+LGC results: mae_lgc = 1.276914��0.023857, mze_lgc = 0.628329��0.007895
+WKFDOR results: mae_fkfdor = 1.027150��0.014760, mze_fkfdor = 0.720500��0.021587
+ESSOR results: mae_efkfdor = 1.027150��0.014760, mze_efkfdor = 0.765733��0.006748
+
+
+Results of dataset: sushi_data/sushi_all_middle.mat.
+Running time = 18261.800543 s.
+
+
+.................................................................................
+Semi-supervised version for KDLOR, WKFDOR, and ESSOR 5-fold CV.
+Experiment settings:
+ normalization_type = z_score, kernel_type = rbf, runtimes = 20.
+DE params: samplingSize = 300, I_itermax = 300, lb = 0, ub = 2, objFuncName = objfun_DE_mae_exp.
+Parallel pool using the 'local' profile is shutting down.
+>> >> 

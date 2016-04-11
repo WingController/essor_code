@@ -1,0 +1,158 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ... connected to 20 workers.
+Running data: sushi_data/sushi_all_middle.mat .......................................................
+Dataset size: 10000 * 147, K = 5, trainSize = 7000, testSize = 3000.
+
+
+
+ labeledRatio = 0.500000.
+Test results:
+
+Lab 13: 
+  
+  kfdor: mae = 1.010333, mze = 0.742667.
+Lab  2: 
+  
+  kfdor: mae = 1.027667, mze = 0.700333.
+Lab 16: 
+  
+  kfdor: mae = 1.040667, mze = 0.694667.
+Lab  9: 
+  
+  kfdor: mae = 1.020667, mze = 0.707333.
+Lab 18: 
+  
+  kfdor: mae = 0.997333, mze = 0.722333.
+Lab 10: 
+  
+  kfdor: mae = 1.003667, mze = 0.707000.
+Lab 11: 
+  
+  kfdor: mae = 1.027667, mze = 0.712667.
+Lab 12: 
+  
+  kfdor: mae = 1.031333, mze = 0.771000.
+Lab  1: 
+  
+  kfdor: mae = 1.026667, mze = 0.752333.
+Lab 14: 
+  
+  kfdor: mae = 1.019000, mze = 0.732333.
+Lab  6: 
+  
+  kfdor: mae = 1.003667, mze = 0.707333.
+Lab 15: 
+  
+  kfdor: mae = 1.007333, mze = 0.697000.
+Lab  3: 
+  
+  kfdor: mae = 1.009333, mze = 0.710667.
+Lab 17: 
+  
+  kfdor: mae = 1.037000, mze = 0.727333.
+Lab  8: 
+  
+  kfdor: mae = 1.016333, mze = 0.712667.
+Lab 20: 
+  
+  kfdor: mae = 1.005000, mze = 0.791333.
+Lab 19: 
+  
+  kfdor: mae = 1.053000, mze = 0.715000.
+Lab  7: 
+  
+  kfdor: mae = 1.014667, mze = 0.729667.
+Lab  5: 
+  
+  kfdor: mae = 1.029667, mze = 0.726333.
+Lab  1: 
+  lgc: mae = 1.252000, mze = 0.624286.
+  wkfdor: mae = 1.034000, mze = 0.737333.
+Lab  2: 
+  lgc: mae = 1.286571, mze = 0.629714.
+  wkfdor: mae = 1.031333, mze = 0.703333.
+Lab  3: 
+  lgc: mae = 1.274571, mze = 0.625714.
+  wkfdor: mae = 1.015333, mze = 0.713667.
+Lab  4: 
+  
+  kfdor: mae = 1.039333, mze = 0.747667.
+  lgc: mae = 1.264286, mze = 0.626857.
+  wkfdor: mae = 1.047667, mze = 0.740667.
+Lab  5: 
+  lgc: mae = 1.280857, mze = 0.638571.
+  wkfdor: mae = 1.034333, mze = 0.725333.
+Lab  6: 
+  lgc: mae = 1.300571, mze = 0.635429.
+  wkfdor: mae = 1.010000, mze = 0.708667.
+Lab  7: 
+  lgc: mae = 1.287714, mze = 0.631714.
+  wkfdor: mae = 1.021667, mze = 0.727000.
+Lab  8: 
+  lgc: mae = 1.320286, mze = 0.641143.
+  wkfdor: mae = 1.022667, mze = 0.719333.
+Lab  9: 
+  lgc: mae = 1.244286, mze = 0.615429.
+  wkfdor: mae = 1.026667, mze = 0.705000.
+Lab 10: 
+  lgc: mae = 1.290286, mze = 0.635143.
+  wkfdor: mae = 1.007333, mze = 0.701667.
+Lab 11: 
+  lgc: mae = 1.296857, mze = 0.635429.
+  wkfdor: mae = 1.033667, mze = 0.695333.
+Lab 12: 
+  lgc: mae = 1.290286, mze = 0.628286.
+  wkfdor: mae = 1.035667, mze = 0.760000.
+Lab 13: 
+  lgc: mae = 1.243143, mze = 0.613714.
+  wkfdor: mae = 1.016333, mze = 0.722000.
+Lab 14: 
+  lgc: mae = 1.313714, mze = 0.631714.
+  wkfdor: mae = 1.028333, mze = 0.730000.
+Lab 15: 
+  lgc: mae = 1.282571, mze = 0.633429.
+  wkfdor: mae = 1.012000, mze = 0.695000.
+Lab 16: 
+  lgc: mae = 1.262857, mze = 0.631429.
+  wkfdor: mae = 1.047333, mze = 0.693667.
+Lab 17: 
+  lgc: mae = 1.236000, mze = 0.616000.
+  wkfdor: mae = 1.041667, mze = 0.731667.
+Lab 18: 
+  lgc: mae = 1.269714, mze = 0.624857.
+  wkfdor: mae = 1.007667, mze = 0.715333.
+Lab 19: 
+  lgc: mae = 1.248286, mze = 0.616857.
+  wkfdor: mae = 1.058667, mze = 0.709000.
+Lab 20: 
+  lgc: mae = 1.293429, mze = 0.630857.
+  wkfdor: mae = 1.010667, mze = 0.776000.
+
+
+
+Semi-supervised version, rbf kernel, 20 trials tests results:
+KFDOR results: mae_kfdor = 1.021017��0.014913, mze_kfdor = 0.725383��0.025180
+LGC results: mae_lgc = 1.276914��0.023857, mze_lgc = 0.628329��0.007895
+WKFDOR results: mae_fkfdor = 1.027150��0.014760, mze_fkfdor = 0.720500��0.021587
+Results of dataset: sushi_data/sushi_all_middle.mat.
+Running time = 2709.589165 s.
+
+
+.................................................................................
+Semi-supervised version for kfdor, wkfdor, 5-fold CV.
+Experiment settings:
+ normalization_type = z_score, kernel_type = rbf, runtimes = 20.
+Parallel pool using the 'local' profile is shutting down.
+>> >> >> 

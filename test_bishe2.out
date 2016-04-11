@@ -1,0 +1,108 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+[Warning: Directory permission denied: /home/jinhong/tools/lfctools] 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+>> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ... connected to 12 workers.
+>> >> >> >> >> >> >> >> >> Dataset size: 488 * 5, K = 9, trainSize = 300, testSize = 188.
+>> >> KFDOR rough search:
+best mae = 0.442857 0.063561, u = 0.001000, sigma = 1.000000, C = 0.001000.
+     mze = 0.408078 0.059372, u = 0.001000, sigma = 1.000000, C = 0.001000.
+KFDOR mae fine search:
+best mae = 0.414413 0.111387, u = 0.000100, sigma = 1.584893, C = 0.000100.
+KFDOR mze fine search:
+best mze = 0.383631 0.087892, u = 0.000158, sigma = 1.584893, C = 0.000100.
+
+LGC rough search:
+best meanDist = 1.925551��1.156113, sigma = 1.000000, alpha = 0.100000.
+LGC fine search:
+best meanDist = 1.818785��1.211384, sigma = 0.630957, alpha = 0.020000.
+>> >> 
+
+
+ labeledRatio = 0.500000.
+Test results:
+
+Lab 10: 
+  
+  kfdor: mae = 0.414894, mze = 0.398936.
+Lab  1: 
+  
+  kfdor: mae = 0.377660, mze = 0.382979.
+Lab  3: 
+  
+  kfdor: mae = 0.510638, mze = 0.452128.
+Lab  5: 
+  
+  kfdor: mae = 0.398936, mze = 0.356383.
+Lab  8: 
+  
+  kfdor: mae = 0.462766, mze = 0.457447.
+Lab  2: 
+  
+  kfdor: mae = 0.404255, mze = 0.404255.
+Lab  4: 
+  
+  kfdor: mae = 0.500000, mze = 0.436170.
+Lab  6: 
+  
+  kfdor: mae = 0.441489, mze = 0.420213.
+Lab  7: 
+  
+  kfdor: mae = 0.457447, mze = 0.425532.
+Lab  1: 
+  lgc: mae = 0.453333, mze = 0.413333.
+  wkfdor: mae = 0.446809, mze = 0.420213.
+Lab  2: 
+  lgc: mae = 0.386667, mze = 0.366667.
+  wkfdor: mae = 0.430851, mze = 0.425532.
+Lab  3: 
+  lgc: mae = 0.446667, mze = 0.406667.
+  wkfdor: mae = 0.515957, mze = 0.500000.
+Lab  4: 
+  lgc: mae = 0.326667, mze = 0.326667.
+  wkfdor: mae = 0.484043, mze = 0.457447.
+Lab  5: 
+  lgc: mae = 0.386667, mze = 0.333333.
+  wkfdor: mae = 0.420213, mze = 0.388298.
+Lab  6: 
+  lgc: mae = 0.413333, mze = 0.373333.
+  wkfdor: mae = 0.430851, mze = 0.398936.
+Lab  7: 
+  lgc: mae = 0.433333, mze = 0.393333.
+  wkfdor: mae = 0.462766, mze = 0.425532.
+Lab  8: 
+  lgc: mae = 0.453333, mze = 0.426667.
+  wkfdor: mae = 0.489362, mze = 0.457447.
+Lab  9: 
+  
+  kfdor: mae = 0.340426, mze = 0.351064.
+  lgc: mae = 0.380000, mze = 0.346667.
+  wkfdor: mae = 0.367021, mze = 0.351064.
+Lab 10: 
+  lgc: mae = 0.366667, mze = 0.333333.
+  wkfdor: mae = 0.404255, mze = 0.393617.
+
+
+
+Semi-supervised version, rbf kernel, 10 trials tests results:
+KFDOR results: mae_kfdor = 0.430851��0.053721, mze_kfdor = 0.408511��0.036920
+LGC results: mae_lgc = 0.404667��0.042403, mze_lgc = 0.372000��0.036623
+WKFDOR results: mae_fkfdor = 0.445213��0.044223, mze_fkfdor = 0.421809��0.042335
+>> >> >> >> >> Running time = 78.691949 s.
+
+
+>> >> Semi-supervised version for kfdor, wkfdor, 5-fold CV.
+>> Experiment settings:
+  ordinal_classes_number = 9, normalization_type = z_score, kernel_type = rbf, runtimes = 10.
+>> >> >> Parallel pool using the 'local' profile is shutting down.
+>> 

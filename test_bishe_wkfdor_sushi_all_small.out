@@ -1,0 +1,171 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ... connected to 20 workers.
+Running data: sushi_data/sushi_all_small.mat .......................................................
+Dataset size: 2000 * 147, K = 5, trainSize = 1400, testSize = 600.
+KFDOR rough search:
+best mae = 0.987019 0.003263, u = 1.000000, sigma = 0.100000, C = 0.100000.
+     mze = 0.715409 0.015865, u = 0.010000, sigma = 100.000000, C = 0.010000.
+KFDOR mae fine search:
+best mae = 0.987019 0.003263, u = 0.251189, sigma = 0.100000, C = 0.015849.
+KFDOR mze fine search:
+best mze = 0.707895 0.020381, u = 0.015849, sigma = 63.095734, C = 0.003981.
+
+LGC rough search:
+best meanDist = 1.535940��0.058534, sigma = 100.000000, alpha = 0.100000.
+LGC fine search:
+best meanDist = 1.533792��0.058815, sigma = 15.848932, alpha = 0.020000.
+
+
+
+ labeledRatio = 0.500000.
+Test results:
+
+Lab 15: 
+  
+  kfdor: mae = 0.928333, mze = 0.836667.
+Lab 13: 
+  
+  kfdor: mae = 1.018333, mze = 0.721667.
+Lab  8: 
+  
+  kfdor: mae = 0.951667, mze = 0.718333.
+Lab  4: 
+  
+  kfdor: mae = 1.013333, mze = 0.783333.
+Lab 12: 
+  
+  kfdor: mae = 1.028333, mze = 0.753333.
+Lab 19: 
+  
+  kfdor: mae = 1.005000, mze = 0.788333.
+Lab  3: 
+  
+  kfdor: mae = 0.978333, mze = 0.760000.
+Lab 10: 
+  
+  kfdor: mae = 1.028333, mze = 0.743333.
+Lab 11: 
+  
+  kfdor: mae = 0.995000, mze = 0.713333.
+Lab 17: 
+  
+  kfdor: mae = 0.988333, mze = 0.766667.
+Lab  5: 
+  
+  kfdor: mae = 0.983333, mze = 0.768333.
+Lab 20: 
+  
+  kfdor: mae = 0.966667, mze = 0.748333.
+Lab  2: 
+  
+  kfdor: mae = 0.930000, mze = 0.726667.
+Lab  1: 
+  
+  kfdor: mae = 0.933333, mze = 0.706667.
+Lab 18: 
+  
+  kfdor: mae = 0.965000, mze = 0.730000.
+Lab  7: 
+  
+  kfdor: mae = 1.001667, mze = 0.730000.
+Lab 14: 
+  
+  kfdor: mae = 1.010000, mze = 0.736667.
+Lab  9: 
+  
+  kfdor: mae = 1.033333, mze = 0.713333.
+Lab 16: 
+  
+  kfdor: mae = 0.933333, mze = 0.746667.
+Lab  6: 
+  
+  kfdor: mae = 1.013333, mze = 0.755000.
+Lab  1: 
+  lgc: mae = 1.331429, mze = 0.660000.
+  wkfdor: mae = 0.935000, mze = 0.720000.
+Lab  2: 
+  lgc: mae = 1.248571, mze = 0.638571.
+  wkfdor: mae = 0.930000, mze = 0.746667.
+Lab  3: 
+  lgc: mae = 1.260000, mze = 0.631429.
+  wkfdor: mae = 0.980000, mze = 0.808333.
+Lab  4: 
+  lgc: mae = 1.335714, mze = 0.690000.
+  wkfdor: mae = 1.013333, mze = 0.766667.
+Lab  5: 
+  lgc: mae = 1.225714, mze = 0.625714.
+  wkfdor: mae = 0.988333, mze = 0.815000.
+Lab  6: 
+  lgc: mae = 1.338571, mze = 0.664286.
+  wkfdor: mae = 1.015000, mze = 0.758333.
+Lab  7: 
+  lgc: mae = 1.221429, mze = 0.625714.
+  wkfdor: mae = 1.003333, mze = 0.753333.
+Lab  8: 
+  lgc: mae = 1.287143, mze = 0.657143.
+  wkfdor: mae = 0.951667, mze = 0.720000.
+Lab  9: 
+  lgc: mae = 1.260000, mze = 0.642857.
+  wkfdor: mae = 1.036667, mze = 0.725000.
+Lab 10: 
+  lgc: mae = 1.175714, mze = 0.611429.
+  wkfdor: mae = 1.026667, mze = 0.746667.
+Lab 11: 
+  lgc: mae = 1.312857, mze = 0.664286.
+  wkfdor: mae = 0.993333, mze = 0.715000.
+Lab 12: 
+  lgc: mae = 1.174286, mze = 0.617143.
+  wkfdor: mae = 1.035000, mze = 0.746667.
+Lab 13: 
+  lgc: mae = 1.201429, mze = 0.618571.
+  wkfdor: mae = 1.015000, mze = 0.731667.
+Lab 14: 
+  lgc: mae = 1.191429, mze = 0.625714.
+  wkfdor: mae = 1.010000, mze = 0.736667.
+Lab 15: 
+  lgc: mae = 1.222857, mze = 0.617143.
+  wkfdor: mae = 0.931667, mze = 0.818333.
+Lab 16: 
+  lgc: mae = 1.298571, mze = 0.644286.
+  wkfdor: mae = 0.938333, mze = 0.746667.
+Lab 17: 
+  lgc: mae = 1.294286, mze = 0.644286.
+  wkfdor: mae = 0.991667, mze = 0.770000.
+Lab 18: 
+  lgc: mae = 1.322857, mze = 0.657143.
+  wkfdor: mae = 0.968333, mze = 0.721667.
+Lab 19: 
+  lgc: mae = 1.302857, mze = 0.651429.
+  wkfdor: mae = 1.005000, mze = 0.821667.
+Lab 20: 
+  lgc: mae = 1.298571, mze = 0.658571.
+  wkfdor: mae = 0.968333, mze = 0.781667.
+
+
+
+Semi-supervised version, rbf kernel, 20 trials tests results:
+KFDOR results: mae_kfdor = 0.985250��0.035311, mze_kfdor = 0.747333��0.031332
+LGC results: mae_lgc = 1.265214��0.054624, mze_lgc = 0.642286��0.020636
+WKFDOR results: mae_fkfdor = 0.986833��0.034918, mze_fkfdor = 0.757500��0.034853
+Results of dataset: sushi_data/sushi_all_small.mat.
+Running time = 4023.609942 s.
+
+
+.................................................................................
+Semi-supervised version for kfdor, wkfdor, 5-fold CV.
+Experiment settings:
+ normalization_type = z_score, kernel_type = rbf, runtimes = 20.
+Parallel pool using the 'local' profile is shutting down.
+>> >> >> 
